@@ -10,8 +10,6 @@ RUN apt update && \
     dpkg-reconfigure --frontend=noninteractive locales && \
     update-locale LANG=en_US.UTF-8
 
-RUN wget -P /tmp https://github.com/NationalSecurityAgency/ghidra/releases/download/Ghidra_11.2_build/ghidra_11.2_PUBLIC_20240926.zip
-
 ARG USER=dave
 ARG PASS=1234
 
