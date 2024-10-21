@@ -1,1 +1,1 @@
-docker run -it -p 13389:3389 -p 5902:5902 -v d:\TestRepo\Thesis\thesis\kali\:/mounty kali:latest
+docker run -it -p 13389:3389 -p 5902:5902 kali:latest
